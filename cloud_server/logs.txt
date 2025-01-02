@@ -1,0 +1,34 @@
+2025-01-01T10:26:05.640Z: Server started on port 45107
+#####
+2025-01-01T10:29:13.676Z: REQUEST: POST /api/clouddb/entry - Adding 11 entries
+#####
+2025-01-01T10:29:13.695Z: RESPONSE: Entries added successfully
+#####
+2025-01-01T10:29:13.718Z: REQUEST: POST /api/clouddb/entry - Adding 11 entries
+#####
+2025-01-01T10:29:13.724Z: RESPONSE: Entries added successfully
+#####
+2025-01-01T10:30:45.210Z: REQUEST: GET /api/alerts
+#####
+2025-01-01T10:30:45.218Z: RESPONSE: Retrieved 0 alerts
+#####
+2025-01-01T10:30:45.228Z: REQUEST: GET /api/clouddb/entry - vaultName: v1, name: sam, secret: max
+#####
+2025-01-01T10:30:45.232Z: REQUEST: GET /api/clouddb/entry - vaultName: v1, name: sam, secret: max001
+#####
+2025-01-01T10:30:45.242Z: RESPONSE: Entry found, returning encryption key
+#####
+2025-01-01T10:30:45.246Z: RESPONSE: Fake entry detected, alert logged
+#####
+2025-01-01T10:30:49.829Z: REQUEST: GET /api/alerts
+#####
+2025-01-01T10:30:49.832Z: RESPONSE: Retrieved 1 alerts
+#####
+2025-01-01T10:30:49.844Z: REQUEST: GET /api/clouddb/entry - vaultName: v1, name: sam, secret: max
+#####
+2025-01-01T10:30:49.846Z: REQUEST: GET /api/clouddb/entry - vaultName: v1, name: sam, secret: max001
+#####
+2025-01-01T10:30:49.849Z: RESPONSE: Entry found, returning encryption key
+#####
+2025-01-01T10:30:49.852Z: RESPONSE: Fake entry detected, alert logged
+#####
